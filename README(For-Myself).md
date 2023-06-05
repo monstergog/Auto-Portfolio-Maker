@@ -41,3 +41,47 @@ THEN this is added to the section of the README entitled Questions, with instruc
 
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
+
+
+
+# ${data.title}
+
+  ## Description
+  
+  ${data.description}
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [How to Contribute](#howtocontribute)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  
+  
+  ## Installation
+  
+  ${data.installation}
+  
+  ## Usage
+  
+  ${data.usage}
+  
+  ![alt text](assets/images/screenshot.png)
+  
+  ## License
+  
+  ${data.license}
+  
+  🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+  
+  ## How to Contribute
+  
+  ${data.contribute}
+  
+  ## Tests
+  
+  ${data.tests}
+
+  ---
