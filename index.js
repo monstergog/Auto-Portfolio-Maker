@@ -7,7 +7,7 @@ const mdGen = require('./utils/generateMarkdown.js');
 const questions = [
     {
         type: 'input',
-        name: 'username',
+        name: 'github',
         message: 'What is your GitHub username?'
     },
     {
@@ -52,15 +52,10 @@ const questions = [
         choices: 
         [
             'None',
-            'Academic Free License v3.0',
-            'Apache license 2.0',
-            'BSD',
-            'Creative Commons License',
-            'General Public License',
-            'Microsoft Public License',
+            'Apache 2.0',
+            'BSD 3',
             'MIT',
-            'Mozilla Public License 2.0',
-            'zLib License'
+            'Mozilla'
         ]
     }
 ];
